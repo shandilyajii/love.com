@@ -1,0 +1,28 @@
+*{padding: 0;margin: 0;}
+.container{height: 220vh;
+            width: 220vh;
+            color: #444;
+            background: #f97c59;
+            text-align: center;}
+.love{
+    padding-top: 25%;
+}            
+h2{font-size: 72px;margin-bottom: 30px;}
+.love span{color: #fb8282;}
+.love a{text-decoration: none;
+    background: #eee;
+    padding: 5px;
+    margin: 5px 10px;
+    border: 3px solid #ddd;   
+    border-radius: 10px;
+}
+#no{color: rgb(4, 116, 17);}
+#yes{color: rgb(29, 26, 222);}
+img{height: 30px;width: 30px;
+    animation: heart 4s linear infinite;}
+
+@keyframes heart{
+    0%{transform: scale(.5);}
+    50%{transform: scale(1.5);}
+    100%{transform: scale(.5);}
+}    
